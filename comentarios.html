@@ -1,0 +1,102 @@
+<!-- Comentários
+  Hypertext Markup Language - HTML
+-->
+
+<!-- Anatomia das tags
+  - Abertura de tag: <h1>
+  - Fechamento de tag: </h1>
+  - Conteúdo: 'dentro da tag'
+  - Elementos: 'estrutura completa'
+-->
+
+<!-- Elementos vazios
+  raro ter o fechamento </>
+<img src="" alt="">
+<input type="text">
+-->
+
+<!-- Atributos HTML
+  - informações extras
+  - configurações
+  <img src="conteudo" alt="texto">
+-->
+
+<!-- Atributos booleanos
+  - não precisam de conteúdo
+  <input type="text" disabled>
+-->
+
+<!-- Aspas
+  - Omissão
+  - Simples
+  - Duplas
+  <a href=https://www.google.com.br></a> 
+  - pode usar sem aspas porém não é recomendado 
+      caso tenha outro atributo na mesma tag
+  - pode usar aspas simples mas o recomendado 
+      é usar aspas duplas com aspas simples
+      caso tiver uma string no meio
+  <a href="link" title="Isn't"></a>
+-->
+
+<!-- Atributos Globais mais utilizados
+  - class               - id
+  - contenteditable     - style
+  - data-*              - tabindex
+  - hidden (oculta)     - title
+
+  <div class="carro" tabindex="2" contenteditable="true" data-id="1" id="car1" style="color: red;">
+  conteudo
+  </div>
+
+  <div class="carro" title="Definir um título" tabindex="1" hidden>
+  conteudo
+  </div>
+-->
+
+<!-- Aninhamento de tags
+  - Fluxo
+  - Hierarquia
+  - Posicionamento dos elementos
+
+  - em = ênfase/itálico e é tag filha de <p> (Hierarquia)
+  - p quebra linha também
+  <p>
+    Vou <em>escrever</em> um parágrafo
+  </p>
+
+  - <br>, </br> ou <br/> é quebra linha também e pode escrever assim
+  - <br> é outro exemplo de hierarquia (filho do p)
+  <p>
+    É um texto <br> Outro texto
+  </p>
+-->
+
+<!--
+  Conteúdo do texto e caracteres reservados 
+  - &nbsp; - espaço no texto tipo 'tab'
+  - <,>,"",&... - alguns dos caracs reservados
+    se quisermos usar eles num texto usamos:
+    - Para <: &lt;, para >: &gt;, para &: &amp;, 
+    para ": &quot;, para ': &apos;....
+-->
+
+<!--
+    Anatomia de um documento HTML
+    <!DOCTYPE html> - serve para navegadores identificarem que usamos o html 5
+    <html lang="pt">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0"> - config para ser visível para desktop e mobile
+        <title>Anatomia do Documento</title>
+      </head>
+
+      <body>
+          <h1>Título</h1>
+          <p>
+            Conteudo...
+          </p>
+      </body>
+    </html>
+-->
