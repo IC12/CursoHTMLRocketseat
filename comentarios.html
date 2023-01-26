@@ -2,31 +2,40 @@
   Hypertext Markup Language - HTML
 -->
 
-<!-- Anatomia das tags
+<!-- 
+    Anatomia das tags
+    
   - Abertura de tag: <h1>
   - Fechamento de tag: </h1>
   - Conteúdo: 'dentro da tag'
   - Elementos: 'estrutura completa'
 -->
 
-<!-- Elementos vazios
-  raro ter o fechamento </>
+<!-- 
+    Elementos vazios
+      raro ter o fechamento </>
 <img src="" alt="">
 <input type="text">
 -->
 
-<!-- Atributos HTML
+<!-- 
+    Atributos HTML
+
   - informações extras
   - configurações
   <img src="conteudo" alt="texto">
 -->
 
-<!-- Atributos booleanos
+<!-- 
+    Atributos booleanos
+
   - não precisam de conteúdo
   <input type="text" disabled>
 -->
 
-<!-- Aspas
+<!-- 
+    Aspas
+
   - Omissão
   - Simples
   - Duplas
@@ -39,7 +48,9 @@
   <a href="link" title="Isn't"></a>
 -->
 
-<!-- Atributos Globais mais utilizados
+<!-- 
+    Atributos Globais mais utilizados
+
   - class               - id
   - contenteditable     - style
   - data-*              - tabindex
@@ -54,7 +65,9 @@
   </div>
 -->
 
-<!-- Aninhamento de tags
+<!-- 
+    Aninhamento de tags
+
   - Fluxo
   - Hierarquia
   - Posicionamento dos elementos
@@ -73,10 +86,87 @@
 -->
 
 <!--
-  Conteúdo do texto e caracteres reservados 
+  Conteúdo do texto e caracteres reservados
+
   - &nbsp; - espaço no texto tipo 'tab'
   - <,>,"",&... - alguns dos caracs reservados
     se quisermos usar eles num texto usamos:
     - Para <: &lt;, para >: &gt;, para &: &amp;, 
     para ": &quot;, para ': &apos;....
+-->
+
+<!--
+    Semântica
+
+    - Dar significado
+    - Elementos semânticos
+-->
+
+<!--
+    Cabeçalhos e parágrafos
+-->
+
+<!--
+    Listas
+
+    - Ordenadas e não ordenadas
+-->
+
+<!--
+    Citações
+
+    <blockquote>
+    <cite>
+    <q>
+-->
+
+<!--
+    Abreviações
+
+    <abbr>
+-->
+
+<!--
+    Detalhes de contato do criador da página HTML
+
+    <address>
+-->
+
+<!--
+    Listas de descrição
+
+    <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
+-->
+
+<!--
+    Representando códigos de computador
+
+    <code>
+      Partes genéricas de código
+    <pre>
+      Blocos de código, pois essa tag mantém os espaços em 
+      brancos e recuos que eu colocar no meu código
+
+    <pre>
+      <code>
+          document.
+              query();
+          &lt;h1&gt
+      </code>
+    </pre>
+-->
+
+<!--
+    Elementos genéricos
+
+    - <div> - quebra linhas, ajuda na config usando CSS e JS
+    - <span> - mantém na mesma linha, ajuda na config usando CSS e JS
+
+    <div class="cart">
+      <span>Camiseta</span>
+      <span>R$ 99,00</span>
+    </div>
 -->
